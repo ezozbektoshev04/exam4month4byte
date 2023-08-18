@@ -1,0 +1,266 @@
+.work-process-card {
+  border-radius: 16px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 34px;
+  width: 405px;
+  transition: 0.5s;
+  .d2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .p3 {
+      padding-top: 24px;
+      color: #2a2c1f;
+      text-align: center;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33.6px; /* 140% */
+    }
+    .p4 {
+      max-width: 320px;
+      padding-top: 17px;
+      color: #65665c;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+  }
+}
+.work-process-card:hover {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.houses-card {
+  max-width: 405px;
+  border-radius: 12px;
+  // background: #e89797;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+  .d3 {
+    padding: 24px;
+    .p3 {
+      color: #2a2c1f;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33.6px; /* 140% */
+    }
+    .p4 {
+      color: #2a2c1f;
+      padding-top: 3px;
+      padding-bottom: 16px;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33.6px; /* 140% */
+    }
+    .d4 {
+      padding-bottom: 16px;
+      display: flex;
+      column-gap: 10px;
+      align-items: center;
+      .p5 {
+        color: #65665c;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+      }
+    }
+    .d5 {
+      display: flex;
+      align-items: center;
+      column-gap: 24px;
+      .d6 {
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+      }
+    }
+  }
+}
+.houses-card:hover {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+@media (max-width: 430px) {
+  .houses-card {
+    .photo21 {
+      width: 99.9%;
+    }
+  }
+}
+
+.location-card {
+  width: 416px;
+  padding: 33px;
+  border-radius: 16px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+  .p3 {
+    color: #2a2c1f;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+  }
+  .a2 {
+    color: #2a2c1f;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    display: flex;
+    align-items: baseline;
+    column-gap: 4px;
+  }
+}
+.location-card:hover {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.customers-card {
+  max-width: 405px;
+  padding: 33px;
+  border-radius: 16px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+  .p3 {
+    color: #2a2c1f;
+    max-width: 339px;
+    padding-top: 27px;
+    padding-bottom: 29px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+  }
+  .d2 {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    .p4 {
+      color: #2a2c1f;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+    }
+    .p5 {
+      color: #65665c;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+  }
+}
+.customers-card:hover {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+@media (max-width: 430px) {
+  .customers-card {
+    max-width: 300px !important;
+  }
+}
+@media (max-width: 375px) {
+  .customers-card {
+    max-width: 250px !important;
+  }
+}
+
+.blog-card {
+  max-width: 405px;
+  border-radius: 16px;
+  border: 1px solid #e7e8e3;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  transition: 0.6s;
+  .d4 {
+    padding: 24px;
+    .d5 {
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+      .d6 {
+        padding: 4px 9px;
+        border-radius: 32px;
+        background: #fae8e1;
+        .p4 {
+          color: #2a2c1f;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 21px; /* 150% */
+        }
+      }
+      .p7 {
+        color: #65665c;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 150% */
+      }
+    }
+    .p8 {
+      max-width: 340px;
+      padding-top: 16px;
+      padding-bottom: 9px;
+      color: #2a2c1f;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33.6px; /* 140% */
+    }
+    .p9 {
+      max-width: 319px;
+      padding-bottom: 24px;
+      color: #65665c;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+    #p9 {
+      padding-top: 11px;
+    }
+    .a3 {
+      color: #2a2c1f;
+      text-align: center;
+      display: flex;
+      align-items: baseline;
+      column-gap: 8px;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px; /* 150% */
+    }
+  }
+}
+.blog-card:hover {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+@media (max-width: 430px) {
+  .blog-card {
+    .photo21 {
+      width: 99.9%;
+    }
+  }
+}

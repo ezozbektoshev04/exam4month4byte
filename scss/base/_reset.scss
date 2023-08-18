@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+input,
+select {
+  outline: none;
+}
+@media (max-width: 430px) {
+  * {
+    box-sizing: initial !important;
+  }
+}

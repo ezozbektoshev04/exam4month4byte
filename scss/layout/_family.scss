@@ -1,0 +1,33 @@
+.family {
+  // background: #f5f5f2;
+  .family-content {
+    margin-top: -233px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    background: #65665c;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    .p1 {
+      color: #fff;
+      text-align: center;
+      padding-top: 13px;
+      padding-bottom: 29px;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 57.6px; /* 120% */
+    }
+    .p2 {
+      color: #e7e8e3;
+      text-align: center;
+      padding-bottom: 21px;
+      max-width: 765px;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px; /* 150% */
+    }
+  }
+}

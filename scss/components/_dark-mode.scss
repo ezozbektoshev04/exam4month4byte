@@ -1,0 +1,97 @@
+.dark .home,
+.dark .comfort,
+.dark .fast,
+.dark footer,
+.dark .footer2,
+.dark .family,
+.dark .customers,
+.dark .locations,
+.dark .houses,
+.dark .blog,
+.dark header,
+.dark .work-process,
+.dark .journals {
+  background-color: rgb(69, 69, 69);
+}
+
+.dark .work-process .p1,
+.dark .work-process .p2,
+.dark .houses .p2,
+.dark .footer-content .a4,
+.dark .footer-content .a5,
+.dark .footer-content .p1,
+.dark .footer-content .p2,
+.dark .footer-content .p3,
+.dark .footer-content .p4,
+.dark .footer-bootom .p5,
+.dark .blog .p2,
+.dark .blog .p3,
+.dark .customers .p2,
+.dark .customers .p1,
+.dark .locations .p1,
+.dark .locations .p2,
+.dark .comfort .p2,
+.dark .comfort .p3,
+.dark .comfort .btn5,
+.dark .fast .btn5,
+.dark header .nav-li,
+.dark header .select1,
+.dark header .input1::placeholder,
+.dark header .input1,
+.dark .locations .btn5,
+.dark .houses .btn5,
+.dark .footer-content .photo1-path,
+.dark header .logo .photo1-path,
+.dark header .search-icon .photo3-path,
+.dark .footer-bootom .photo2-path,
+.dark .fast .p2,
+.dark .fast .p3,
+.dark .fast .p4,
+.dark .fast .p5,
+.dark .comfort .btn5 svg,
+.dark .locations .btn5 svg,
+.dark .fast .btn5 svg,
+.dark .houses .btn5 svg,
+.dark .dark-menu-btn .svg1,
+.dark .menu-btn .menu-svg,
+.dark .home .p2,
+.dark .journals p,
+.dark .home .p3 {
+  color: white !important;
+  fill: #fff;
+}
+
+.svg1 {
+  fill: rgba(0, 0, 0, 1);
+}
+.menu-svg {
+  fill: rgba(0, 0, 0, 1);
+}
+.dark-menu-btn {
+  background: transparent;
+}
+.btn5 {
+  svg {
+    fill: "#2A2C1F";
+  }
+}
+.footer-content {
+  .photo1-path {
+    fill: #2a2c1f;
+  }
+}
+header .logo {
+  .photo1-path {
+    fill: #2a2c1f;
+  }
+}
+header .search-icon {
+  .photo3-path {
+    fill: #2a2c1f;
+  }
+}
+.footer-bootom {
+  .photo2-path {
+    fill: #2a2c1f;
+  }
+}
